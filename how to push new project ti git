@@ -1,0 +1,9 @@
+1.first check git status
+2.then check git remove -v 
+3. if it is the repository you wanted to add continue with git add . otherwise
+  4.replace it with git remote set-url origin https://github.com/<username>/<repository>.git
+5.then git add .
+6. git commit -m "<comments>"
+  7. check branch git branch if its main
+  8. go with git push -u origin main
+thats it
